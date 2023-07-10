@@ -19,7 +19,7 @@
 
 % Don't like 10pt? Try 11pt or 12pt
 \documentclass[10pt]{article}
-\usepackage{CJKutf8}
+\usepackage[UTF8]{ctex}
 % This is a helpful package that puts math inside length specifications
 \usepackage{calc}
 \usepackage{pifont}
@@ -46,6 +46,7 @@
         \setlength{\topsep}{0pt}}}
         {\end{list}\vspace{-.6\baselineskip}}
 \makeatother
+
 
 % Layout: Puts the section titles on left side of page
 \reversemarginpar
@@ -96,6 +97,8 @@
 %% This gives us fun enumeration environments. compactitem will be nice.
 \usepackage{paralist}
 \usepackage[shortlabels]{enumitem}
+
+
 % \usepackage[misc]{ifsym}
 %% Reference the last page in the page number
 %
@@ -172,7 +175,8 @@
 
 % An itemize-style list with lots of space between items
 \newenvironment{outerlist}[1][\enskip\textbullet]%
-        {\begin{itemize}[#1]}{\end{itemize}%
+        {%\begin{itemize}[#1]}{\end{itemize}%
+        \begin{itemize}[label=#1, itemsep=1pt]}{\end{itemize}%%
          \vspace{-0.6\baselineskip}}
 
 % An environment IDENTICAL to outerlist that has better pre-list spacing
@@ -209,8 +213,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\hyphenpenalty = 9999
+
 \def\vs{\vspace{-0.1in}}
 \begin{document}
+
 % \makeheading{Curriculum Vitae\\ [0.3cm] TIEP HUU VU\quad~~~~~~\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad{\small Last update: December 17, 2015}}
 
 
@@ -231,13 +237,11 @@
 %\end{outerlist}
 % section research_backg (end)
 %% =========  ==============================
-
-\begin{CJK}{UTF8}{gbsn}
 	
 % \makeheading{Curriculum Vitae\\ [0.3cm] TIEP HUU VU\quad~~~~~~\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad{\small Last update: December 17, 2015}}
-\makeheading{CHEN Han \hfill {\small Last update: Feb 03, 2023}}
+\makeheading{CHEN Han \hfill {\small Last update: July 11, 2023}}
 
-
+\vspace{-0.3in}
 \section{contact\\information}
 \begin{minipage}[l]{0.75\textwidth}
 \begin{tabular}[t]{l@{}p{\textwidth-\rcollength}p{\rcollength}}
@@ -247,11 +251,11 @@ Tel: +86-13305014345\\
 \texttt{Github:}\href{https://www.github.com/Concyclics}{www.github.com/Concyclics}\\
 %\texttt{Gitee:}\href{https://www.gitee.com/Concyclics}{www.gitee.com/concyclics}\\
 \texttt{Kaggle:}\href{https://www.kaggle.com/concyclics}{www.kaggle.com/concyclics} \\
-\texttt{Address}: University Town Campus, Panyu District, \\
-				\quad \quad \quad \quad \enspace South China University of Technology, Guangzhou, China\\												
+\texttt{Address}: Fu Feng Road NO.100, Jin An District, Fuzhou, Fu Jian Province, China\\												
 \end{tabular}
 \end{minipage}
 \begin{minipage}[r]{0.5\textwidth}
+\vspace{0.1in}
 \quad \quad \quad \quad \quad \enspace \includegraphics[width=0.25\textwidth]{face.jpg}\\
 \end{minipage}
 %% ==============================================================
@@ -266,78 +270,95 @@ Tel: +86-13305014345\\
 %\end{outerlist}
 % section research_backg (end)
 %% =========  ==============================
-\vspace{-0.2in}
+\noindent\rule{\textwidth}{1pt}
 \section{education}
-	\href{http://www.fzsz.net/}{\textbf{Fuzhou NO.3 High School}}, Fuzhou, China. \hfill 2016--2019
+\vspace{-0.4in}
+
+\href{http://www.fzsz.net/}{\textbf{Fuzhou NO.3 High School}}, Fuzhou, China. \hfill 2016--2019
 	\\
- \href{https://www.scut.edu.cn/en/}{\textbf{South China University of Technology (SCUT)}}, Guangzhou, China. \hfill 2019--2023
-    \begin{innerlist}
-        \item B.Eng., Software Engineering.
-    \end{innerlist}
+\href{https://www.scut.edu.cn/en/}{\textbf{South China University of Technology (SCUT)}}, Guangzhou, China. \hfill 2019--2023
+        \begin{innerlist}
+                \item B.Eng., Software Engineering.
+        \end{innerlist}
+\href{https://www.nus.edu.sg/}{\textbf{National University of Singapore}}, Singapore. \hfill 2023--now
+        \begin{innerlist}
+                \item Master of Computing, Computer Science.
+        \end{innerlist}
   
  %% =========  ==============================
+ \noindent\rule{\textwidth}{1pt}
+
 \section{Technical Skills} % (fold)
-\vspace{-0.2in}
+\vspace{-0.5in}
 \begin{outerlist}
   	\item {\it English}: IELTS(6.5), CET-4, CET-6.
-  	\item {\it Programming Languages}: C/C++, Fortran, Python, MySQL, sqlite, \LaTeX.
-  	\item {\it Programming skills}: intel oneapi, openblas, openmp, pthread, pytorch, keras.
+  	\item {\it familiar with}: C/C++, Fortran, blas, openmp, pthread, cuda.
   	\item {\it TestDemo Certificate}: \href{https://app.testdome.com/cert/bc443ba08d3442d1a4de9e7aea611dfa}{C++, TOP 10\%}, \href{https://app.testdome.com/cert/71e9426611324cce8a5dff69d23da9a5}{LINUX, TOP 10\%}, \href{https://app.testdome.com/cert/9af88d532837416f80620799c6fa1c9f}{PYTHON, TOP 10\%}
    	\item {\it Kaggle Certificate}: \href{https://www.kaggle.com/learn/certification/concyclics/data-visualization}{Data Visualization}, \href{https://www.kaggle.com/learn/certification/concyclics/intro-to-machine-learning}{Intro to Machine Learning}, \href{https://www.kaggle.com/learn/certification/concyclics/intro-to-deep-learning}{Intro to Deep Learning}, \href{https://www.kaggle.com/learn/certification/concyclics/intro-to-game-ai-and-reinforcement-learning}{Intro to Game AI and Reinforcement Learning}
   %\item {\it Technical Softwares}: MATLAB.
 \end{outerlist}
 
 %% =========  ==============================
+\noindent\rule{\textwidth}{1pt}
 \section{Honors \\and\\ Awards}
-\vspace{-0.2in}
+\vspace{-0.5in}
 \begin{outerlist}
+
 	\item \textbf{\textit{Silver Award (46th)}} ICPC Asia JiNan Regional Contest. \hfill 2021
 
 	\item \textbf{\textit{Bronze Award (46th)}} ICPC Asia-East Continent Final. \hfill 2022
 
-	\item \textbf{\textit{Silver Award (3rd)}} \\National College Students Algorithm Design\&Programming Challenge Contest\hfill 2022
+	%\item \textbf{\textit{Silver Award (3rd)}} \\National College Students Algorithm Design\&Programming Challenge Contest\hfill 2022
 
 	\item \textbf{National Scholarship} \hfill 2022
-
-	\item \textbf{\textit{The First Prize Scholarship} Hong Ping Evergreen Fund}\\Student Science and Technology Innovation Competition scholarship\hfill 2022
-
-	\item \textbf{\textit{Outstanding Contribution Award}} \\Extracurricular Academic Science and Technology Innovation\&Competition of 
-	\\South China University of Technology\hfill 2022
 	
-	\item \textbf{\textit{Kaggle Dataset Expert}} \href{https://www.kaggle.com/concyclics}{Rank 181/63093} \hfill 2022
+        \item \textbf{Honorable Mention} Mathematical Contest in Modeling \hfill 2023
+	
+	\item \textbf{Outstanding Diploma Project of South China University of Technology} \hfill 2023
+	
+	%\item \textbf{\textit{The First Prize Scholarship} Hong Ping Evergreen Fund}\\Student Science and Technology Innovation Competition scholarship\hfill 2022
 
-	\item \textbf{\textit{Kaggle Notebook Expert}} \href{https://www.kaggle.com/concyclics}{Rank 964/221587} \hfill 2022
+	%\item \textbf{\textit{Outstanding Contribution Award}} \\Extracurricular Academic Science and Technology Innovation\&Competition of 
+	%\\South China University of Technology\hfill 2022
+	
+	%\item \textbf{\textit{Kaggle Dataset Expert}} \href{https://www.kaggle.com/concyclics}{Rank 181/63093} \hfill 2022
+
+	%\item \textbf{\textit{Kaggle Notebook Expert}} \href{https://www.kaggle.com/concyclics}{Rank 964/221587} \hfill 2022
 \end{outerlist}
 
 
 %% ================== block:  ==========================
+\noindent\rule{\textwidth}{1pt}
 \section{PROJECT\\EXPERIENCE}
-\vspace{-0.2in}
+\vspace{-0.5in}
 \begin{outerlist}
-
-\item {\it\textbf{Parallel Optimization Symmetric Matrix Solution with BBK Algorithm}}\\
-	Mentor: \href{http://www2.scut.edu.cn/sse/2018/0614/c16789a270678/page.htm}{TANG Deyou}\hfill May-Dec. 2022\\
-	\vspace{-0.1in}
-	\begin{innerlist}
-		\item Implemented the subroutine of solving symmetric matrix with bounded Bunch-Kaufman algorithm.
-		\item Optimized the performance with openmp and using NEON intrinsics to improve parallelism and performance.
-		\item Modified the cache-hit rate and parallelism during a column-swap part to achieve a 70\% total performance improvement.
-	\end{innerlist}
-
 \item {\it \textbf{Risk Management for Extreme Climate Disaster Chain in the Greater Bay Area}}\\
-	Mentor: \href{http://www2.scut.edu.cn/sse/2019/0419/c16789a314444/page.htm}{TAO Qian}\hfill Mar.-July 2022\\
-	\vspace{-0.1in}
+Mentor: \href{http://www2.scut.edu.cn/sse/2019/0419/c16789a314444/page.htm}{TAO Qian}\hfill Mar.-July 2022\\
+\vspace{-0.2in}
+\begin{innerlist}
+        \item Predict climate changes, estimated risks with GAT net and visualize the results with plotly.
+\end{innerlist}
+
+\item {\it\textbf{Symmetric Matrix Solving Algorithm Parallel Optimization for ARM Architecture}}\\
+	Mentor: \href{http://www2.scut.edu.cn/sse/2018/0614/c16789a270678/page.htm}{TANG Deyou}\hfill May-Dec. 2022\\
+	\vspace{-0.2in}
 	\begin{innerlist}
-		\item Used Python libraries like Matplotlib, Plotly, and Pandas to perform correlation analysis, visualization analysis and doing some feature engineering according to the tropical cyclone measurement data from the China Meteorological Administration. 
-		\item Predicted climate changes and estimated risks with GAT net.
+		\item Implemente the subroutine of bounded Bunch-Kaufman algorithm and use openmp and NEON intrinsics to optimize parallelism and performance.
+		\item Modify the cache-hit rate and parallelism during column-swap part to achieve a 70\% total performance improvement.
 	\end{innerlist}
- 
+
+\item {\it\textbf{Research Assistant}} in \textbf{\href{https://hkust-gz.edu.cn/zh/?variant=zh-cn}{Hong Kong University of Science and Technology, Guangzhou}}\\
+Mentor: \href{https://zeyiwen.github.io/}{Zeyi Wen}\hfill Apr. 2023--now\\
+\vspace{-0.2in}
+\begin{innerlist}
+        \item Research on the Graph Partitioning Algorithm and fillin-reducing ordering algorithm.
+\end{innerlist}
 \end{outerlist}
 
 %% ================== block:  ==========================%
-
+\noindent\rule{\textwidth}{1pt}
 \section{EXCHANGE\\EXPERIENCE}
-\vspace{-0.2in}
+\vspace{-0.5in}
 \begin{outerlist}
 \item \textbf{Online Academic Program on Machine Learning, McGill University} \hfill Jan.-Feb. 2022\\
 	\vspace{-0.1in}
@@ -364,31 +385,30 @@ Tel: +86-13305014345\\
 %\end{outerlist}
 % section research_backg (end)
 %% =========  ==============================
-
-\begin{CJK}{UTF8}{gbsn}
+\pagebreak
 	
 % \makeheading{Curriculum Vitae\\ [0.3cm] TIEP HUU VU\quad~~~~~~\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad{\small Last update: December 17, 2015}}
-\makeheading{陈 涵 \hfill {\small 最近更新: 十二月 15, 2022}}
+\makeheading{陈 涵 \hfill {\small 最近更新: 七月 11, 2023}}
 
 
+\vspace{-0.3in}
 \section{联系方式}
-\begin{minipage}[l]{0.74\textwidth}
+\begin{minipage}[l]{0.75\textwidth}
 \begin{tabular}[t]{l@{}p{\textwidth-\rcollength}p{\rcollength}}
 Tel: +86-13305014345\\
 {\large\Letter} \texttt{E-mail:}\href{mailto:concyclics@qq.com}{concyclics@qq.com} 
 \\
 \texttt{Github:}\href{https://www.github.com/Concyclics}{www.github.com/Concyclics}\\
-\texttt{Gitee:}\href{https://www.gitee.com/Concyclics}{www.gitee.com/concyclics}\\
+%\texttt{Gitee:}\href{https://www.gitee.com/Concyclics}{www.gitee.com/concyclics}\\
 \texttt{Kaggle:}\href{https://www.kaggle.com/concyclics}{www.kaggle.com/concyclics} \\
-\texttt{邮寄地址}: 广东省番禺区小谷围街道华南理工大学\\												
+\texttt{地址}: 福建省福州市晋安区福峰路100号三盛国际公园\\												
 \end{tabular}
 \end{minipage}
-\begin{minipage}[r]{0.8\textwidth}
-\begin{tabular}[t]{c@{}p{\textwidth-\rcollength}p{\rcollength}}
-\includegraphics[width=0.2\textwidth]{face.jpg}\\
+\begin{minipage}[r]{0.5\textwidth}
+\vspace{0.1in}
+\quad \quad \quad \quad \quad \enspace \includegraphics[width=0.25\textwidth]{face.jpg}\\
+\end{minipage}
 
-\end{tabular}
-\end{minipage}
 %% ==============================================================
 
 %\section{Research Background} % (fold)
@@ -401,31 +421,51 @@ Tel: +86-13305014345\\
 %\end{outerlist}
 % section research_backg (end)
 %% =========  ==============================
+\noindent\rule{\textwidth}{1pt}
 \section{教育经历}
+\vspace{-0.2in}
 	\href{http://www.fzsz.net/}{\textbf{福建省福州第三中学}}, 福建省福州市. \hfill 2016--2019
 	\\
-    \href{https://www.scut.edu.cn/en/}{\textbf{华南理工大学}}，\href{http://www2.scut.edu.cn/sse/}{\textbf{软件学院}}，广东省广州市. \hfill 2019--2023
+    \href{https://www.scut.edu.cn/en/}{\textbf{华南理工大学}}, 软件工程学士, 广东省广州市. \hfill 2019--2023
+    \\
+    \href{https://www.nus.edu.sg/}{\textbf{新加坡国立大学}}, 计算机硕士, 新加坡. \hfill 2023--now
 
 %% =========  ==============================
+\noindent\rule{\textwidth}{1pt}
+\section{专业技能} % (fold)
+\label{sec:technical_ski}
+\vspace{-0.5in}
+\begin{outerlist}
+  \item {\it 英语认证水平}: CET-4, CET-6 IELTS(6.5). 
+  \item {\it 编程语言}: C/C++, Python, Fortran, MySQL, sqlite, \LaTeX.
+  \item {\it 编程技能}：intel oneapi, blas, openmp, pthread, cuda. 
+  \item {\it 工业和信息化部人才交流中心}: 工业和信息化人才专业知识测评证书——C语言编程高阶
+  \item {\it TestDemo 编程技能认证}: \href{https://app.testdome.com/cert/bc443ba08d3442d1a4de9e7aea611dfa}{C++, TOP 10\%}, \href{https://app.testdome.com/cert/71e9426611324cce8a5dff69d23da9a5}{LINUX, TOP 10\%}, \href{https://app.testdome.com/cert/9af88d532837416f80620799c6fa1c9f}{PYTHON, TOP 10\%}
+\item {\it Kaggle 课程认证}: \href{https://www.kaggle.com/learn/certification/concyclics/data-visualization}{数据可视化}, \href{https://www.kaggle.com/learn/certification/concyclics/intro-to-machine-learning}{机器学习}, \href{https://www.kaggle.com/learn/certification/concyclics/intro-to-deep-learning}{深度学习}, \href{https://www.kaggle.com/learn/certification/concyclics/intro-to-game-ai-and-reinforcement-learning}{强化学习}
+
+\end{outerlist}
+\noindent\rule{\textwidth}{1pt}
 \section{获奖荣誉}
-\vspace{-0.3in}
+\vspace{-0.5in}
 \begin{outerlist}
 
-\item 华南理工大学\textbf{\textit{优秀共青团员}} \hfill 2019\&2021
+%\item 华南理工大学\textbf{\textit{优秀共青团员}} \hfill 2019\&2021
 \item \textbf{\textit{银牌}} 第46届国际大学生程序设计竞赛(ACM-ICPC) \hfill 2021
 \item \textbf{\textit{铜牌}} 第46届国际大学生程序设计竞赛亚洲区决赛(ACM-ICPC EC final) \hfill 2022
 \item \textbf{国家奖学金} \hfill 2022
+\item \textbf{二等奖} 美国大学生数学建模竞赛 (MCM/ICM) \hfill 2023
+\item \textbf{华南理工大学本科优秀毕业设计(论文)} \hfill 2023
 %\item \textbf{\textit{顽强拼搏奖}} 第46届国际大学生程序设计竞赛亚洲区决赛 \hfill 2022
-\item \textbf{\textit{银牌}} 第三届全国大学生算法设计与编程挑战赛 (秋季赛) \hfill 2022
-\item \textbf{\textit{铜牌}} 第三届全国大学生算法设计与编程挑战赛 (冬季赛) \hfill 2022
-\item \textbf{\textit{铜牌}} 第三届全国大学生算法设计与编程挑战赛 (夏季赛) \hfill 2022
-\item \textbf{\textit{一等奖}} “宏平长青基金”学生科技创新竞赛奖学金\hfill 2022
-\item  \textbf{\textit{银牌}} 集美大学第八届程序设计竞赛. \hfill 2022
-\item \textbf{\textit{杰出贡献奖}} 华南理工大学课外学术科技创新竞赛成果\hfill 2022
-\item \textbf{\textit{Kaggle 数据专家(Dataset Expert)}} \href{https://www.kaggle.com/concyclics}{排名 181/63093} \hfill 2022
-\item \textbf{\textit{Kaggle 代码专家(Notebook Expert)}} \href{https://www.kaggle.com/concyclics}{排名 964/221587} \hfill 2022
+%\item \textbf{\textit{银牌}} 第三届全国大学生算法设计与编程挑战赛 (秋季赛) \hfill 2022
+%\item \textbf{\textit{铜牌}} 第三届全国大学生算法设计与编程挑战赛 (冬季赛) \hfill 2022
+%\item \textbf{\textit{铜牌}} 第三届全国大学生算法设计与编程挑战赛 (夏季赛) \hfill 2022
+%\item \textbf{\textit{一等奖}} “宏平长青基金”学生科技创新竞赛奖学金\hfill 2022
+%\item  \textbf{\textit{银牌}} 集美大学第八届程序设计竞赛. \hfill 2022
+%\item \textbf{\textit{杰出贡献奖}} 华南理工大学课外学术科技创新竞赛成果\hfill 2022
+%\item \textbf{\textit{Kaggle 数据专家(Dataset Expert)}} \href{https://www.kaggle.com/concyclics}{排名 181/63093} \hfill 2022
+%\item \textbf{\textit{Kaggle 代码专家(Notebook Expert)}} \href{https://www.kaggle.com/concyclics}{排名 964/221587} \hfill 2022
 \end{outerlist}
-
+\noindent\rule{\textwidth}{1pt}
 
 %% ================== block:  ==========================
 \vspace{0.1in}
@@ -433,40 +473,45 @@ Tel: +86-13305014345\\
 %% ================== block:  ==========================
 \section{项目经历} % (fold)
 \label{sec:technical_ski}
-\vspace{-0.3in}
+\vspace{-0.5in}
 \begin{outerlist}
 
-\item {\it 粤港澳大湾区极端天气气候灾害链的风险管控与应对} \hfill 2022/03-2022/07\\
- 	项目编号: 2019YFC1510400\\
- 	工作内容: 气象数据分析和图注意力网络研究\\ 
- 	单位: 	华南理工大学软件学院软件服务工程与云计算团队陶乾实验室\\
- 	导师: 陶乾
+\item {\it 粤港澳大湾区极端天气气候灾害链的风险管控与应对} \hfill 2022/03-2022/07\\ 
+ 	单位: 	华南理工大学软件学院软件服务工程与云计算团队陶乾实验室\quad
+ 	导师: \href{http://www2.scut.edu.cn/sse/2019/0419/c16789a314444/page.htm}{陶乾}
+        \begin{innerlist}
+                工作内容: 利用图注意力神经网络进行气象预测和灾害预警，并进行可视化展示。
+        \end{innerlist}
  	
- \item {\it 对称矩阵函数求解之BBK(rook)算法} \hfill 2022/04-12\\
- 	工作内容: 针对华为鲲鹏处理器实现LAPACK数学库中对称矩阵求解BBK算法\\
- 	对应{$sysv\_rk/sysv\_rook$}单双精度实复数四种数据类型的接口并进行多线程并行性能优化和SIMD指令集性能优化\\
- 	单位:  	华为鲲鹏计算\\
- 	导师: 汤德佑
+ \item {\it 对称矩阵函数求解BBK算法的并行优化} \hfill 2022/04-2022/12\\
+ 	单位:  	华为鲲鹏计算\quad
+ 	导师: \href{http://www2.scut.edu.cn/sse/2018/0614/c16789a270678/page.htm}{汤德佑}
+        \begin{innerlist}
+                工作内容: \item 实现Bounded Bunch-Kaufman (BBK)算法，利用NEON指令集和OpenMP进行优化。
+                \item 对求解的行交换操作进行并行和访存优化，实现总体接口70\%的性能提升。
+        \end{innerlist}
 
+ \item {\it\textbf{科研助理}} \hfill 2023/04--至今\\
+        单位: \textbf{\href{https://hkust-gz.edu.cn/zh/?variant=zh-cn}{香港科技大学广州校区}}\quad
+        导师: \href{https://zeyiwen.github.io/}{文泽忆}
+        \begin{innerlist}
+                %\item Research on the Graph Partitioning Algorithm and fillin-reducing ordering algorithm.
+                \item 开展图分割算法和填充减少排序算法的研究。
+        \end{innerlist}
 \end{outerlist}
-
-
+\noindent\rule{\textwidth}{1pt}
+\section{交换经历}
+\vspace{-0.5in}
+\begin{outerlist}
+\item \textbf{机器学习线上访学项目, 麦吉尔大学} \hfill 2022/01--2022/02\\
+	\vspace{-0.2in}
+	\begin{innerlist}
+		\item 学习机器学习的基本理论和算法。
+		\item 在Kaggle上完成了关于利用CNN进行图像分类和利用RNN进行文本分类的两个练习赛。
+		\item 进行了关于消费习惯的数据分析和建模，并撰写报告答辩。
+	\end{innerlist}
+\end{outerlist}
 
 %% ================== block:  ==========================%
 
-\section{专业技能} % (fold)
-\label{sec:technical_ski}
-\vspace{-0.3in}
-\begin{outerlist}
-  \item {\it 编程语言}: C/C++, Python, Fortran, MySQL, sqlite, \LaTeX, markdown.
-  \item {\it 编程技能}：intel oneapi, openblas, openmp, pthread, pytorch, keras. 
-  \item {\it 工业和信息化部人才交流中心}: 工业和信息化人才专业知识测评证书——C语言编程高阶
-  \item {\it TestDemo 编程技能认证}: \href{https://app.testdome.com/cert/bc443ba08d3442d1a4de9e7aea611dfa}{C++, TOP 10\%}, \href{https://app.testdome.com/cert/71e9426611324cce8a5dff69d23da9a5}{LINUX, TOP 10\%}, \href{https://app.testdome.com/cert/9af88d532837416f80620799c6fa1c9f}{PYTHON, TOP 10\%}
-\item {\it Kaggle 课程认证}: \href{https://www.kaggle.com/learn/certification/concyclics/data-visualization}{数据可视化}, \href{https://www.kaggle.com/learn/certification/concyclics/intro-to-machine-learning}{机器学习}, \href{https://www.kaggle.com/learn/certification/concyclics/intro-to-deep-learning}{深度学习}, \href{https://www.kaggle.com/learn/certification/concyclics/intro-to-game-ai-and-reinforcement-learning}{强化学习}
-
-  \item {\it 英语认证水平}: CET-4, CET-6 IELTS(6.5).
-\end{outerlist}
-
-
-\end{CJK}
 \end{document}

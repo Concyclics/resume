@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.6.10)  11 JUL 2023 05:32
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.6.10)  11 JUL 2023 14:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -605,19 +605,19 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 333.
+(hyperref)                removing `\\' on input line 338.
 
 
-Overfull \hbox (5.0134pt too wide) in paragraph at lines 333--333
+Overfull \hbox (5.0134pt too wide) in paragraph at lines 338--338
 []\TU/lmr/m/sc/10 EXPERIENCE  
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 361.
+(hyperref)                removing `\\' on input line 366.
 
 
-Overfull \hbox (5.0134pt too wide) in paragraph at lines 361--361
+Overfull \hbox (5.0134pt too wide) in paragraph at lines 366--366
 []\TU/lmr/m/sc/10 EXPERIENCE  
  []
 
@@ -626,23 +626,23 @@ Overfull \hbox (5.0134pt too wide) in paragraph at lines 361--361
 ]
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
-(Font)              using `TU/SimSun(0)/m/n' instead on input line 396.
+(Font)              using `TU/SimSun(0)/m/n' instead on input line 401.
 
 File: face.jpg Graphic file (type bmp)
 <face.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--410
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
 
-Overfull \hbox (112.47444pt too wide) in paragraph at lines 396--411
+Overfull \hbox (112.47444pt too wide) in paragraph at lines 401--416
 []$[]$ $[]$ 
  []
 
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
-(Font)              using `TU/SimSun(0)/b/n' instead on input line 453.
+(Font)              using `TU/SimSun(0)/b/n' instead on input line 459.
 
 [2] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -657,12 +657,12 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 935D3A64B6CF2D825B8D0BFC2F92F506;1210.
  ) 
 Here is how much of TeX's memory you used:
- 15446 strings out of 476683
- 336615 string characters out of 5807575
+ 15434 strings out of 476683
+ 335887 string characters out of 5807575
  1872012 words of memory out of 5000000
- 35450 multiletter control sequences out of 15000+600000
+ 35438 multiletter control sequences out of 15000+600000
  515648 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,13n,97p,547b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,13n,97p,548b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on resume.pdf (2 pages).

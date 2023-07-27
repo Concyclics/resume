@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.6.10)  28 JUL 2023 01:47
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.6.10)  28 JUL 2023 02:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -419,11 +419,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 130.
 Package hyperref Info: Option `breaklinks' set `true' on input line 130.
- (./resume.aux
-
-LaTeX Warning: Label `sec:technical_ski' multiply defined.
-
-)
+ (./resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 218.
@@ -543,8 +539,11 @@ Package hyperref Info: Link coloring ON on input line 218.
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
-\rcollength=\skip80
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+\rcollength=\skip80
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 246.
@@ -621,6 +620,9 @@ Overfull \hbox (5.0134pt too wide) in paragraph at lines 366--366
 []\TU/lmr/m/sc/10 EXPERIENCE  
  []
 
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 394.
+
 [1
 
 ]
@@ -644,6 +646,9 @@ Overfull \hbox (112.47444pt too wide) in paragraph at lines 401--416
 LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
 (Font)              using `TU/SimSun(0)/b/n' instead on input line 459.
 
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 527.
+
 [2] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./resume.aux)
@@ -651,16 +656,28 @@ enddocument/afterlastpage: lastpage setting LastPage.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 935D3A64B6CF2D825B8D0BFC2F92F506;1210.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `resume.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `resume.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  935D3A64B6CF2D825B8D0BFC2F92F506;1210.
+
+Package lastpage Warning: Rerun to get the references right on input line 527.
+
  ) 
 Here is how much of TeX's memory you used:
- 15434 strings out of 476683
- 335887 string characters out of 5807575
+ 15433 strings out of 476683
+ 335885 string characters out of 5807575
  1872012 words of memory out of 5000000
- 35438 multiletter control sequences out of 15000+600000
+ 35437 multiletter control sequences out of 15000+600000
  515648 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,13n,97p,548b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s

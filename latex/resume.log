@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.6.10)  28 JUL 2023 02:21
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.17)  22 AUG 2023 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -419,7 +419,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 130.
 Package hyperref Info: Option `breaklinks' set `true' on input line 130.
- (./resume.aux)
+ (./resume.aux
+
+LaTeX Warning: Label `sec:technical_ski' multiply defined.
+
+)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 218.
@@ -539,11 +543,8 @@ Package hyperref Info: Link coloring ON on input line 218.
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 \rcollength=\skip80
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 246.
@@ -552,7 +553,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 247.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 247.
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 249.
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 250.
 (c:/texlive/2023/texmf-dist/tex/latex/marvosym/umvs.fd)
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
@@ -577,77 +578,66 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-
-Overfull \hbox (40.34668pt too wide) in paragraph at lines 247--256
-[][] 
- []
-
 File: face.jpg Graphic file (type bmp)
 <face.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
 
-Overfull \hbox (112.47444pt too wide) in paragraph at lines 246--262
+Overfull \hbox (112.47444pt too wide) in paragraph at lines 246--263
 []$[]$ $[]$ 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 304.
+(hyperref)                removing `\\' on input line 305.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 304.
+(hyperref)                removing `\\' on input line 305.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 338.
+(hyperref)                removing `\\' on input line 339.
 
 
-Overfull \hbox (5.0134pt too wide) in paragraph at lines 338--338
+Overfull \hbox (5.0134pt too wide) in paragraph at lines 339--339
 []\TU/lmr/m/sc/10 EXPERIENCE  
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 366.
+(hyperref)                removing `\\' on input line 367.
 
 
-Overfull \hbox (5.0134pt too wide) in paragraph at lines 366--366
+Overfull \hbox (5.0134pt too wide) in paragraph at lines 367--367
 []\TU/lmr/m/sc/10 EXPERIENCE  
  []
-
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 394.
 
 [1
 
 ]
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
-(Font)              using `TU/SimSun(0)/m/n' instead on input line 401.
+(Font)              using `TU/SimSun(0)/m/n' instead on input line 402.
 
 File: face.jpg Graphic file (type bmp)
 <face.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
 
  []
 
 
-Overfull \hbox (112.47444pt too wide) in paragraph at lines 401--416
+Overfull \hbox (112.47444pt too wide) in paragraph at lines 402--418
 []$[]$ $[]$ 
  []
 
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
-(Font)              using `TU/SimSun(0)/b/n' instead on input line 459.
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 527.
+(Font)              using `TU/SimSun(0)/b/n' instead on input line 461.
 
 [2] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -656,28 +646,16 @@ enddocument/afterlastpage: lastpage setting LastPage.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  935D3A64B6CF2D825B8D0BFC2F92F506;1210.
-
-Package lastpage Warning: Rerun to get the references right on input line 527.
-
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: 935D3A64B6CF2D825B8D0BFC2F92F506;1210.
  ) 
 Here is how much of TeX's memory you used:
- 15433 strings out of 476683
- 335885 string characters out of 5807575
+ 15434 strings out of 476683
+ 335887 string characters out of 5807575
  1872012 words of memory out of 5000000
- 35437 multiletter control sequences out of 15000+600000
+ 35438 multiletter control sequences out of 15000+600000
  515648 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,13n,97p,548b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: olivierodo/awesome-cv-action@0.0.1
+    - uses:  wsoula/Awesome-CV-action@v0.0.2
       with:
         FILE_NAME: 'latex/resume.tex'

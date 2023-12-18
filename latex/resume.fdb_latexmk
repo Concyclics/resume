@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1702935278 "c:/Users/Concyclics/Documents/resume/latex/resume.tex" "resume.pdf" "resume" 1702935280 0
-  "c:/Users/Concyclics/Documents/resume/latex/resume.tex" 1702935278 24268 cb8cfac979426013a6191caf3103a593 ""
+["pdflatex"] 1702938969 "c:/Users/Concyclics/Documents/resume/latex/resume.tex" "resume.pdf" "resume" 1702938970 0
+  "c:/Users/Concyclics/Documents/resume/latex/resume.tex" 1702938969 24436 3122e507a2b01c18e7409929a0d3dec2 ""
   "c:/Windows/Fonts/msyh.ttc" 1700406373 19701556 07c864a5b15e68fa47639738197fae38 ""
   "c:/Windows/Fonts/simfang.ttf" 1651842600 10578152 37e609660535d9b42db7ba1cc80eff88 ""
   "c:/Windows/Fonts/simhei.ttf" 1651842600 9753388 6abc0fcfbaa40600f9cecca3afeb3aa7 ""
@@ -128,6 +128,7 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8b.tfm" 1686393411 1172 cb1829d4415ae14a6d1b42840373e23a ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8d.tfm" 1686393411 1172 766e8f05ddf433a70188e0789a492ab5 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8f.tfm" 1686393411 1172 39abbbe02586d0f65fa39c19429184a6 ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong90.tfm" 1686393411 1172 1dd258add692258fd748a53ff76ed075 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong96.tfm" 1686393411 1172 97abce3faa5097f1401cb707f6f69600 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong98.tfm" 1686393411 1172 0d85b1f7b78508ff1f0a5ef94e0aaca9 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong99.tfm" 1686393411 1172 445e3c81b2f1f84601e454216cbde866 ""
@@ -241,9 +242,9 @@
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1686393578 7883441 c1ba570ef3185b5a416c633db26fe435 ""
   "c:/texlive/2023/texmf.cnf" 1686393423 713 e69b156964470283e0530f5060668171 ""
   "face.jpg" 1690482078 131493 9d2d07254dbfb34777440990c8111e22 ""
-  "resume.aux" 1702935279 1930 77798ba16b011ce751c08af1da762590 "pdflatex"
-  "resume.out" 1702935279 1210 1dfa606f62f25fda8b0ea813dcbbeb9e "pdflatex"
-  "resume.tex" 1702935278 24268 cb8cfac979426013a6191caf3103a593 ""
+  "resume.aux" 1702938970 1931 4a7a45a9c8ab1bb27c4be423b9f233d6 "pdflatex"
+  "resume.out" 1702938970 1210 c37720ed11cec81f61d853eb009b0266 "pdflatex"
+  "resume.tex" 1702938969 24436 3122e507a2b01c18e7409929a0d3dec2 ""
   (generated)
   "resume.aux"
   "resume.log"

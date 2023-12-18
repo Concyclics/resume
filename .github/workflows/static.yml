@@ -1,0 +1,10 @@
+ - name: CV of CHEN Han
+  # You may pin to the exact commit or the version.
+  # uses: wsoula/Awesome-CV-action@ead7b179e4974e12b2367ac92e5d57c02523a28d
+  uses: wsoula/Awesome-CV-action@v0.0.2
+  with:
+    # The filename of your latex document within your repository (Ex: resume.tex)
+    FILE_NAME: latex/resume.tex
+    # Define if you want the action to create a latest tag, allowing you to the latest document though a single tag named "latest" (default: true)
+    LATEST_TAG: 20231209
+          

@@ -1,10 +1,14 @@
- - name: CV of CHEN Han
-  # You may pin to the exact commit or the version.
-  uses: olivierodo/Awesome-CV-action@0.0.1
-  # uses: wsoula/Awesome-CV-action@v0.0.2
-  with:
-    # The filename of your latex document within your repository (Ex: resume.tex)
-    FILE_NAME: latex/resume.tex
-    # Define if you want the action to create a latest tag, allowing you to the latest document though a single tag named "latest" (default: true)
-    LATEST_TAG: 20231209
-          
+name: CV of CHEN Han
+
+on: [push]
+
+jobs:
+  awesome-cv-job:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: olivierodo/awesome-cv-action@0.0.1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        FILE_NAME: 'latex/resume.tex'

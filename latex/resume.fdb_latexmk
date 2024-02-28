@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1706032449 "c:/Users/Concyclics/Documents/resume/latex/resume.tex" "resume.pdf" "resume" 1706032450 0
-  "c:/Users/Concyclics/Documents/resume/latex/resume.tex" 1706032449 24866 aba847fbfa2e07e717f007c40e08d3e1 ""
+["pdflatex"] 1709125710 "c:/Users/Concyclics/Documents/resume/latex/resume.tex" "resume.pdf" "resume" 1709125711 0
+  "c:/Users/Concyclics/Documents/resume/latex/resume.tex" 1709125710 24720 896841a34a7500bf65c2c326bcd17da1 ""
   "c:/Windows/Fonts/msyh.ttc" 1700406373 19701556 07c864a5b15e68fa47639738197fae38 ""
   "c:/Windows/Fonts/simfang.ttf" 1651842600 10578152 37e609660535d9b42db7ba1cc80eff88 ""
   "c:/Windows/Fonts/simhei.ttf" 1651842600 9753388 6abc0fcfbaa40600f9cecca3afeb3aa7 ""
@@ -126,13 +126,11 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong89.tfm" 1686393411 1172 8b185a44b25b68fee81f017ffd4f4c82 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8a.tfm" 1686393411 1172 a036683e790606984e21b7cb9523d25d ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8b.tfm" 1686393411 1172 cb1829d4415ae14a6d1b42840373e23a ""
-  "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8c.tfm" 1686393411 1172 ef00399cafeb3f8b6343803347ead58f ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8d.tfm" 1686393411 1172 766e8f05ddf433a70188e0789a492ab5 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8f.tfm" 1686393411 1172 39abbbe02586d0f65fa39c19429184a6 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong90.tfm" 1686393411 1172 1dd258add692258fd748a53ff76ed075 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong91.tfm" 1686393411 1172 084e1e91aa4ae30efc415c3663943670 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong96.tfm" 1686393411 1172 97abce3faa5097f1401cb707f6f69600 ""
-  "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong97.tfm" 1686393411 1172 3322410a0eee91e13e02457b09378209 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong98.tfm" 1686393411 1172 0d85b1f7b78508ff1f0a5ef94e0aaca9 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong99.tfm" 1686393411 1172 445e3c81b2f1f84601e454216cbde866 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong9a.tfm" 1686393411 1172 37a3cd36cf03e67f393bee80b1370d05 ""
@@ -246,9 +244,9 @@
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1686393578 7883441 c1ba570ef3185b5a416c633db26fe435 ""
   "c:/texlive/2023/texmf.cnf" 1686393423 713 e69b156964470283e0530f5060668171 ""
   "face.jpg" 1690482078 131493 9d2d07254dbfb34777440990c8111e22 ""
-  "resume.aux" 1706032450 1959 b07687f506dcb50aaa64aad29a43acab "pdflatex"
-  "resume.out" 1706032450 1315 c299c85fc3396f05cdcca14f62b00c8a "pdflatex"
-  "resume.tex" 1706032449 24866 aba847fbfa2e07e717f007c40e08d3e1 ""
+  "resume.aux" 1709125711 1959 b07687f506dcb50aaa64aad29a43acab "pdflatex"
+  "resume.out" 1709125711 1315 c299c85fc3396f05cdcca14f62b00c8a "pdflatex"
+  "resume.tex" 1709125710 24720 896841a34a7500bf65c2c326bcd17da1 ""
   (generated)
   "resume.aux"
   "resume.log"

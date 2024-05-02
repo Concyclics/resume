@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.10)  28 FEB 2024 21:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.10)  3 MAY 2024 04:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -554,51 +554,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 247.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 247.
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 250.
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 251.
 (c:/texlive/2023/texmf-dist/tex/latex/marvosym/umvs.fd)
-<face.jpg, id=56, 173.448pt x 249.3315pt>
+<face.jpg, id=54, 173.448pt x 249.3315pt>
 File: face.jpg Graphic file (type jpg)
 <use face.jpg>
-Package pdftex.def Info: face.jpg  used on input line 263.
+Package pdftex.def Info: face.jpg  used on input line 261.
 (pdftex.def)             Requested size: 55.12721pt x 79.24365pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
 
-Overfull \hbox (112.47665pt too wide) in paragraph at lines 246--266
+Overfull \hbox (112.47665pt too wide) in paragraph at lines 246--264
 []$[]$ $[]$ 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 297.
+(hyperref)                removing `\\' on input line 295.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 297.
+(hyperref)                removing `\\' on input line 295.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 332.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 332.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 351--354
-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 372.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-
+Overfull \hbox (0.36096pt too wide) in paragraph at lines 342--343
+[]\OT1/cmr/m/n/10 Optimize and par-al-lel Bounded Bunch-Kaufman Al-go-rithm(*sysv[]rk sub-rou-tine of LA-PACK)
  []
 
 (c:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
@@ -606,43 +589,70 @@ File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfT
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 
 {c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./face.jpg>]
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 396.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 383.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+
+ []
+
+[2]
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 407.
  (c:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
 
 LaTeX Font Warning: Font shape `C70/rm/m/sc' undefined
-(Font)              using `C70/rm/m/n' instead on input line 401.
+(Font)              using `C70/rm/m/n' instead on input line 412.
 
-LaTeX Font Info:    Trying to load font information for C70+zhfs on input line 408.
+LaTeX Font Info:    Trying to load font information for C70+zhfs on input line 422.
 (c:/texlive/2023/texmf-dist/tex/latex/zhmetrics/c70zhfs.fd
 File: c70zhfs.fd 2009/09/23 4.8.2
 )
 File: face.jpg Graphic file (type jpg)
 <use face.jpg>
-Package pdftex.def Info: face.jpg  used on input line 416.
+Package pdftex.def Info: face.jpg  used on input line 427.
 (pdftex.def)             Requested size: 55.12721pt x 79.24365pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--417
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
 
  []
 
 
-Overfull \hbox (112.47665pt too wide) in paragraph at lines 401--418
+Overfull \hbox (112.47665pt too wide) in paragraph at lines 412--429
 []$[]$ $[]$ 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 483.
+(hyperref)                removing `\\' on input line 501.
 
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 491.
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 509.
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--528
+Overfull \hbox (3.14915pt too wide) in paragraph at lines 529--530
+[]\C70/rm/m/sc/10/5b ž \C70/rm/m/n/10/73 ° \C70/rm/m/sc/10/4e † ^^@ \C70/rm/m/n/10/79 Í \C70/rm/m/n/10/65 ° \C70/rm/m/n/10/76 „ \C70/rm/m/sc/10/5b ù \C70/rm/m/n/10/79 ð \C70/rm/m/n/10/6d A \C70/rm/m/n/10/52   \C70/rm/m/sc/10/5b Æ \C70/rm/m/n/10/7b — \C70/rm/m/n/10/6c Õ\OT1/cmr/m/n/10 , \C70/rm/m/sc/10/4e ^^N \C70/rm/m/n/10/5f S \C70/rm/m/n/10/52 M\OT1/cmr/m/n/10 SOTA\C70/rm/m/n/10/7b — \C70/rm/m/n/10/6c Õ\OT1/cmr/m/n/10 Rocca\C70/rm/m/n/10/76 ø \C70/rm/m/n/10/6b Ô\OT1/cmr/m/n/10 , \C70/rm/m/n/10/57 ( \C70/rm/m/n/10/4f ^^? \C70/rm/m/n/10/75 ( \C70/rm/m/n/10/76 ø \C70/rm/m/sc/10/54 ^^L \C70/rm/m/n/10/6b Ô \C70/rm/m/n/10/4f ‹\OT1/cmr/m/n/10 AES\C70/rm/m/n/10/63 ^^G \C70/rm/m/sc/10/4e ä\OT1/cmr/m/n/10 (3:1)
+ []
+
+
+Overfull \hbox (1.86024pt too wide) in paragraph at lines 529--530
+\C70/rm/m/n/10/76 „ \C70/rm/m/n/10/60 Å \C70/rm/m/n/10/51 µ \C70/rm/m/sc/10/4e \OT1/cmr/m/n/10 , \C70/rm/m/n/10/57 ( \C70/rm/m/n/10/9c ² \C70/rm/m/n/10/9e O\OT1/cmr/m/n/10 920\C70/rm/m/n/10/59 ^^D \C70/rm/m/n/10/74 ^^F \C70/rm/m/n/10/56 h \C70/rm/m/sc/10/4e 
+ \C70/rm/m/n/10/8f ¾ \C70/rm/m/n/10/52 0 \C70/rm/m/sc/10/4e †\OT1/cmr/m/n/10 49Gbps\C70/rm/m/n/10/76 „ \C70/rm/m/n/10/60 ' \C70/rm/m/sc/10/80 ý\OT1/cmr/m/n/10 , Rocca\C70/rm/m/n/10/7b — \C70/rm/m/n/10/6c Õ \C70/rm/m/n/10/57 ( \C70/rm/m/n/10/8b å \C70/rm/m/n/10/59 ^^D \C70/rm/m/n/10/74 ^^F \C70/rm/m/n/10/56 h \C70/rm/m/sc/10/4e 
+ \C70/rm/m/n/10/60 ' \C70/rm/m/sc/10/80 ý \C70/rm/m/sc/10/4e :\OT1/cmr/m/n/10 38Gbps|\C70/rm/m/n/10/30 ^^B|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
 
  []
 
-[2] 
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
+
+ []
+
+[4] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./resume.aux)
 
@@ -652,21 +662,21 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: C299C85FC3396F05CDCCA14F62B00C8A;1315.
+(rerunfilecheck)             Checksum: FBC909DA957503B68DB6DEFDEB91442A;1247.
  ) 
 Here is how much of TeX's memory you used:
- 14291 strings out of 476025
- 241281 string characters out of 5794015
- 1877382 words of memory out of 5000000
- 34208 multiletter control sequences out of 15000+600000
- 549127 words of font info for 163 fonts, out of 8000000 for 9000
+ 14401 strings out of 476025
+ 243164 string characters out of 5794015
+ 1883382 words of memory out of 5000000
+ 34294 multiletter control sequences out of 15000+600000
+ 551557 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,13n,80p,751b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on resume.pdf (2 pages, 666735 bytes).
+ 78i,13n,80p,751b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simfang.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on resume.pdf (4 pages, 730885 bytes).
 PDF statistics:
- 685 PDF objects out of 1000 (max. 8388607)
- 480 compressed objects within 5 object streams
- 15 named destinations out of 1000 (max. 500000)
- 342 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 740 PDF objects out of 1000 (max. 8388607)
+ 516 compressed objects within 6 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 362 words of extra memory for PDF output out of 10000 (max. 10000000)
 

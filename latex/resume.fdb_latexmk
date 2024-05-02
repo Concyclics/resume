@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1714681626 "c:/Users/Concyclics/Documents/resume/latex/resume.tex" "resume.pdf" "resume" 1714681628 0
-  "c:/Users/Concyclics/Documents/resume/latex/resume.tex" 1714681626 27638 fc17bcb1db911bbc6ea1da173c46407b ""
+["pdflatex"] 1714681932 "c:/Users/Concyclics/Documents/resume/latex/resume.tex" "resume.pdf" "resume" 1714681933 0
+  "c:/Users/Concyclics/Documents/resume/latex/resume.tex" 1714681930 27498 f564cea7de176b1d20f7e6e866c74f2f ""
   "c:/Windows/Fonts/msyh.ttc" 1700406373 19701556 07c864a5b15e68fa47639738197fae38 ""
   "c:/Windows/Fonts/simfang.ttf" 1651842600 10578152 37e609660535d9b42db7ba1cc80eff88 ""
   "c:/Windows/Fonts/simhei.ttf" 1651842600 9753388 6abc0fcfbaa40600f9cecca3afeb3aa7 ""
@@ -254,9 +254,9 @@
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1686393578 7883441 c1ba570ef3185b5a416c633db26fe435 ""
   "c:/texlive/2023/texmf.cnf" 1686393423 713 e69b156964470283e0530f5060668171 ""
   "face.jpg" 1690482078 131493 9d2d07254dbfb34777440990c8111e22 ""
-  "resume.aux" 1714681627 1942 c0946cec6e045826221f1d6f24e83529 "pdflatex"
-  "resume.out" 1714681627 1247 fbc909da957503b68db6defdeb91442a "pdflatex"
-  "resume.tex" 1714681626 27638 fc17bcb1db911bbc6ea1da173c46407b ""
+  "resume.aux" 1714681933 1931 af92e9dbec89c7fe79a4a6733a2a3c23 "pdflatex"
+  "resume.out" 1714681933 1223 078c1ff34c99c797a41a081512dfdab0 "pdflatex"
+  "resume.tex" 1714681930 27498 f564cea7de176b1d20f7e6e866c74f2f ""
   (generated)
   "resume.aux"
   "resume.log"

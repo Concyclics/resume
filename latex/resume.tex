@@ -247,6 +247,7 @@
 \begin{tabular}[t]{l@{}p{\textwidth-\rcollength}p{\rcollength}}
 Tel: +86-13305014345\\
 Tel: +65-89420214\\
+Wechat: concyclics\\
 %{\large\Letter} \texttt{E-mail:}\href{mailto:concyclics@qq.com}{concyclics@qq.com} \\
 {\large\Letter} \texttt{E-mail:}\href{mailto:chenhan@u.nus.edu}{chenhan@u.nus.edu} \\
 \texttt{Github:}\href{https://www.github.com/Concyclics}{www.github.com/Concyclics}\\
@@ -264,7 +265,7 @@ Tel: +65-89420214\\
 
 %\section{Research Background} % (fold)
 %\label{sec:research_backg}
-\vspace{-0.1in}
+%\vspace{-0.1in}
 
 %\begin{outerlist}
 %  \item {\bf Graph Unsupervised Learning}: Graph Clustering/ Community Detection, Graph Representation Learning, Graph Contrastive Learning.
@@ -318,7 +319,8 @@ Tel: +65-89420214\\
 	\item \href{https://concyclics.github.io/resume/certificates/DBCI_2021.pdf}
         {\textbf{\textit{44/3567}} in CCF-DBCI Competition of "Recognition of figure skaters' skeleton points based on Paddle"} \hfill 2021
 
-        \item \textbf{\textit{First Prize}} in National Olympiad in Informatics in Province(NOIP) \hfill 2017
+        \item \href{https://concyclics.github.io/resume/certificates/NOIP.jpg}
+        {\textbf{\textit{First Prize}} in National Olympiad in Informatics in Province(NOIP)} \hfill 2017
 
 	%\item \textbf{\textit{The First Prize Scholarship} Hong Ping Evergreen Fund}\\Student Science and Technology Innovation Competition scholarship\hfill 2022
 
@@ -337,23 +339,13 @@ Tel: +65-89420214\\
 \vspace{-0.5in}
 \begin{outerlist}
 
-\item {\it\textbf{Symmetric Matrix Solving Algorithm Parallel Optimization for ARM Architecture}}\\
-	Mentor: \href{http://www2.scut.edu.cn/sse/2018/0614/c16789a270678/page.htm}{Prof. Deyou TANG}\hfill May-Dec. 2022\\
-	\vspace{-0.2in}
-	\begin{innerlist}
-		\item Optimize and parallel Bounded Bunch-Kaufman Algorithm(*sysv\_rk subroutine of LAPACK) for solving symmetric matrix on ARM server processor with NEON instruction set and openMP.
-		\item Implement a parallel column reordering method in row swap of solving symmetric matrix to enhance memory access locality for column major matrix for better cache hit rate and parallelism, achieving a performance improvement from 320Gflops to 580Gflops.
-		\item Implement the same optimization on Skylake Intel processor and achieve 2-5x multi-core speedup than MKL library for *sytrs\_3 subroutine of LAPACK.
-		\item Awarded as the Excellent Degree Dissertation of South China University of Technology.
-	\end{innerlist}
-
-\item {\it\textbf{Research Assistant}} in \textbf{\href{https://hkust-gz.edu.cn/zh/?variant=zh-cn}{Hong Kong University of Science and Technology, Guangzhou}}\\
-Mentor: \href{https://zeyiwen.github.io/}{Prof. Zeyi WEN}\hfill Apr-Sept.  2023\\
+\item {\it\textbf{Research Assistant}} in \textbf{National University of Singapore}\\
+Mentor: \href{https://www.comp.nus.edu.sg/~hebs/}{Prof. Bingsheng He}\hfill May-Aug.  2024\\
 \vspace{-0.2in}
 \begin{innerlist}
-        \item Implement a library of parallel hyper graph partitioning with openMP task.
-        \item Realize a multiple node contraction algorithm for graph coursenning.
-        \item Research parallel graph partitioning algorithm and adapt it for fill-in reduction of sparse matrix.
+        \item Research on efficient inference for large language models(LLMs).
+        \item Deploy a Qwen-72B model inference with tensor parallel and 4-bit quantized KV cache on 4 NVIDIA A100 GPU system.
+        \item Attempt on new quantized KV cache design for LLMs.
 \end{innerlist}
 
 \item {\it\textbf{Internship}} in \textbf{SG Digital Trust Lab, Singapore Research Center, 2012 Laboratory}\\
@@ -365,14 +357,27 @@ Mentor: Dr. Tao HUANG\hfill Jan.-May  2024\\
         \item Realize a new stream encryption algorithm with 49Gbps performance on KUNPENG 920 processor with the same AES instructions involved(3:1) as SOTA method Rocca which run at 38Gbps on the same processor.
 \end{innerlist}
 
-\item {\it\textbf{Research Assistant}} in \textbf{National University of Singapore}\\
-Mentor: \href{https://www.comp.nus.edu.sg/~hebs/}{Prof. Bingsheng He}\hfill May-Aug.  2024\\
-\vspace{-0.2in}
-\begin{innerlist}
-        \item Research on efficient inference for large language models(LLMs).
-        \item Deploy a Qwen-72B model inference with tensor parallel and 4-bit quantized KV cache on 4 NVIDIA A100 GPU system.
-        \item Attempt on new quantized KV cache design for LLMs.
-\end{innerlist}
+\item {\it\textbf{Symmetric Matrix Solving Algorithm Parallel Optimization for ARM Architecture}}\\
+	Mentor: \href{http://www2.scut.edu.cn/sse/2018/0614/c16789a270678/page.htm}{Prof. Deyou TANG}\hfill May-Dec. 2022\\
+	\vspace{-0.2in}
+	\begin{innerlist}
+		\item Optimize and parallel Bounded Bunch-Kaufman Algorithm(*sysv\_rk subroutine of LAPACK) for solving symmetric matrix on ARM server processor with NEON instruction set and openMP.
+		\item Implement a parallel column reordering method in row swap of solving symmetric matrix to enhance memory access locality for column major matrix for better cache hit rate and parallelism, achieving a performance improvement from 320Gflops to 580Gflops.
+		\item Implement the same optimization on Skylake Intel processor and achieve 2-5x multi-core speedup than MKL library for *sytrs\_3 subroutine of LAPACK.
+		\item Awarded as the Excellent Degree Dissertation of South China University of Technology.
+	\end{innerlist}
+
+%\item {\it\textbf{Research Assistant}} in \textbf{\href{https://hkust-gz.edu.cn/zh/?variant=zh-cn}{Hong Kong University of Science and Technology, Guangzhou}}\\
+%Mentor: \href{https://zeyiwen.github.io/}{Prof. Zeyi WEN}\hfill Apr-Sept.  2023\\
+%\vspace{-0.2in}
+%\begin{innerlist}
+%        \item Implement a library of parallel hyper graph partitioning with openMP task.
+%        \item Realize a multiple node contraction algorithm for graph coursenning.
+%        \item Research parallel graph partitioning algorithm and adapt it for fill-in reduction of sparse matrix.
+%\end{innerlist}
+
+
+
 \end{outerlist}
 
  %% =========  ==============================
@@ -424,6 +429,7 @@ Mentor: \href{https://www.comp.nus.edu.sg/~hebs/}{Prof. Bingsheng He}\hfill May-
 \begin{tabular}[t]{l@{}p{\textwidth-\rcollength}p{\rcollength}}
 Tel: +86-13305014345\\
 Tel: +65-89420214\\
+微信: concyclics\\
 %{\large\Letter} \texttt{E-mail:}\href{mailto:concyclics@qq.com}{concyclics@qq.com}\\
 {\large\Letter} \texttt{E-mail:}\href{mailto:chenhan@u.nus.edu}{chenhan@u.nus.edu} \\
 \texttt{Github:}\href{https://www.github.com/Concyclics}{www.github.com/Concyclics}\\
@@ -493,7 +499,8 @@ Tel: +65-89420214\\
 \item \href{https://concyclics.github.io/resume/certificates/DBCI_2021.pdf}
 {\textbf{\textit{44/3567}} CCF-DBCI "基于飞浆实现花样滑冰选手骨骼点识别" 竞赛} \hfill 2021
 
-\item \textbf{\textit{一等奖}} 全国青少年信息学奥林匹克联赛(NOIP) \hfill 2017
+\item \href{https://concyclics.github.io/resume/certificates/NOIP.jpg}
+{\textbf{\textit{一等奖}} 全国青少年信息学奥林匹克联赛(NOIP)} \hfill 2017
 
 %\item \textbf{\textit{顽强拼搏奖}} 第46届国际大学生程序设计竞赛亚洲区决赛 \hfill 2022
 %\item \textbf{\textit{银牌}} 第三届全国大学生算法设计与编程挑战赛 (秋季赛) \hfill 2022
@@ -515,6 +522,22 @@ Tel: +65-89420214\\
 \label{sec:technical_ski}
 \vspace{-0.5in}
 \begin{outerlist}
+
+\item {\it\textbf{科研助理}}: 新加坡国立大学 \hfill 2024/05--2024/08\\
+        导师: \href{https://www.comp.nus.edu.sg/~hebs/}{何丙胜教授}
+        \begin{innerlist}
+                \item 研究大型语言模型(LLMs)的高效推理。
+                \item 在4*A100的系统上, 利用张量并行和4位量化KV缓存部署了Qwen-72B模型推理。
+                \item 尝试新的LLMs的量化KV缓存设计。
+        \end{innerlist}
+
+\item {\it\textbf{实习生}}: 华为2012实验室新加坡研究所数字信任实验室 \hfill 2024/01--2024/05\\
+        导师：黄涛博士
+        \begin{innerlist}
+                \item 研究利用SIMD指令集实现的高性能的流式对称密码算法。
+                \item 通过滚动数组优化和鲲鹏920处理器的异或指令融合特性, 将LOL-MINI-NMH算法的性能从 7.1Gbps提升到8.5Gbps。
+                \item 实现了一种新的对称流加密算法, 与当前SOTA算法Rocca相比, 在使用相同比例AES指令(3:1) 的情况下, 在鲲鹏920处理器上达到了49Gbps的性能, Rocca算法在该处理器上性能为38Gbps。
+        \end{innerlist}
  	
  \item {\it \textbf{对称矩阵函数求解BBK算法的并行优化}} \hfill 2022/04-2022/12\\
  	合作单位:  华为鲲鹏计算\quad
@@ -526,30 +549,17 @@ Tel: +65-89420214\\
                 \item 该项目获评华南理工大学本科优秀毕业设计。
         \end{innerlist}
 
- \item {\it\textbf{科研助理}}: \href{https://hkust-gz.edu.cn/zh/?variant=zh-cn}{香港科技大学广州校区} \hfill 2023/04--2023/09\\
-        导师: \href{https://zeyiwen.github.io/}{文泽忆教授}
-        \begin{innerlist}
-                %\item Research on the Graph Partitioning Algorithm and fillin-reducing ordering algorithm.
-                \item 实现了一个基于openMP Task的并行多层拓扑图分割库。
-                \item 在图压缩中实现了一种多节点收缩算法。
-                \item 研究将并行图分割算法, 应用于稀疏矩阵的填充减少。
-        \end{innerlist}
+% \item {\it\textbf{科研助理}}: \href{https://hkust-gz.edu.cn/zh/?variant=zh-cn}{香港科技大学广州校区} \hfill 2023/04--2023/09\\
+%        导师: \href{https://zeyiwen.github.io/}{文泽忆教授}
+%        \begin{innerlist}
+%                %\item Research on the Graph Partitioning Algorithm and fillin-reducing ordering algorithm.
+%                \item 实现了一个基于openMP Task的并行多层拓扑图分割库。
+%                \item 在图压缩中实现了一种多节点收缩算法。
+%                \item 研究将并行图分割算法, 应用于稀疏矩阵的填充减少。
+%        \end{innerlist}
 
- \item {\it\textbf{实习生}}: 华为2012实验室新加坡研究所数字信任实验室 \hfill 2024/01--2024/05\\
-        导师：黄涛博士
-        \begin{innerlist}
-                \item 研究利用SIMD指令集实现的高性能的流式对称密码算法。
-                \item 通过滚动数组优化和鲲鹏920处理器的异或指令融合特性, 将LOL-MINI-NMH算法的性能从 7.1Gbps提升到8.5Gbps。
-                \item 实现了一种新的对称流加密算法, 与当前SOTA算法Rocca相比, 在使用相同比例AES指令(3:1) 的情况下, 在鲲鹏920处理器上达到了49Gbps的性能, Rocca算法在该处理器上性能为38Gbps。
-        \end{innerlist}
 
-\item {\it\textbf{科研助理}}: 新加坡国立大学 \hfill 2024/05--2024/08\\
-        导师: \href{https://www.comp.nus.edu.sg/~hebs/}{何丙胜教授}
-        \begin{innerlist}
-                \item 研究大型语言模型(LLMs)的高效推理。
-                \item 在4 NVIDIA A100 GPU系统上, 利用张量并行和4位量化KV缓存部署了Qwen-72B模型推理。
-                \item 尝试新的LLMs的量化KV缓存设计。
-        \end{innerlist}
+
 \end{outerlist}
 %% =========  ==============================
 \noindent\rule{\textwidth}{1pt}

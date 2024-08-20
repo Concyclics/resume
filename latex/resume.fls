@@ -1,8 +1,8 @@
-PWD c:/Users/ChenH/Documents/resume/latex
+PWD c:/Users/Concyclics/Documents/resume/latex
 INPUT c:/texlive/2023/texmf.cnf
 INPUT c:/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/ChenH/Documents/resume/latex/resume.tex
+INPUT c:/Users/Concyclics/Documents/resume/latex/resume.tex
 OUTPUT resume.log
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -931,6 +931,8 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong74.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong30.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong91.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong88.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong50.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong81.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unikai/unikai75.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisongff.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong9e.tfm
@@ -947,7 +949,6 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unikai/unikai76.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unikai/unikai5e.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unikai/unikai88.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong69.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong50.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unikai/unikai82.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unikai/unikai7f.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unikai/unikai7a.tfm
@@ -983,7 +984,6 @@ INPUT c:/Windows/Fonts/simkai.ttf
 INPUT c:/Windows/Fonts/simkai.ttf
 INPUT c:/Windows/Fonts/simkai.ttf
 INPUT c:/Windows/Fonts/simsun.ttc
-INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simkai.ttf
 INPUT c:/Windows/Fonts/simkai.ttf
 INPUT c:/Windows/Fonts/simkai.ttf
@@ -999,6 +999,8 @@ INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simkai.ttf
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc

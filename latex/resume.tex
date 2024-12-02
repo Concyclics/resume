@@ -239,7 +239,7 @@
 %% =========  ==============================
 	
 % \makeheading{Curriculum Vitae\\ [0.3cm] TIEP HUU VU\quad~~~~~~\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad{\small Last update: December 17, 2015}}
-\makeheading{CHEN Han \hfill {\small Last update: Oct. 22, 2024}}
+\makeheading{CHEN Han \hfill {\small Last update: Dec. 02, 2024}}
 
 \vspace{-0.2in}
 \section{contact\\information}
@@ -349,23 +349,25 @@ Mentor: \href{https://www.comp.nus.edu.sg/~hebs/}{Prof. Bingsheng HE}\hfill May-
 \end{innerlist}
 
 \item {\it\textbf{Internship: Cryptography Engineer}} in \textbf{SG Digital Trust Lab, Singapore Research Center, 2012 Laboratory}\\
-Mentor: Dr. Tao HUANG\hfill Jan.-May  2024\\
+Mentor: \href{mailto:huangtao80@huawei.com}{Dr. Tao HUANG}\hfill Jan.-Dec.  2024\\
 \vspace{-0.2in}
 \begin{innerlist}
-        \item Develop a structure for high performance SIMD based encryption by the Cryptographic SIMD implementation difference between ARM and x86 architecture.
-        \item Design a new AEAD stream cipher to achieve 4x speedup than AES-GCM encryption algorithm on popular mobile processors.
-        \item On submission to FSE(Fast Software Encryption) 2025.
+        \item Design a \textit{'XAXX'} structure to efficiently utilize the distinct pipelines of both ARM and x86 (with AES-NI) architectures, achieving high IPC.
+        \item Build a new AEAD (Authenticated Encryption with Associated Data) cipher named \textit{'HiAE'} based on the \textit{'XAXX'} structure, which is 16$\times$ faster on ARM and 13$\times$ faster on x86-64 processors than AES-256-GCM.
+        \item Optimized it by inline assembler, make it as the fastest AEAD solution on both latest ARM and x86 processors, creating new performance record of 328Gbps on AEAD mode.
+        \item Under review at FSE (Fast Software Encryption) 2025
+        \item Implementation open-source at \href{https://github.com/Concyclics/HiAE}{github.com/Concyclics/HiAE}.
 \end{innerlist}
 
 \item {\it\textbf{Symmetric Matrix Solving Algorithm Parallel Optimization for ARM Architecture}}\\
-	Mentor: \href{http://www2.scut.edu.cn/sse/2018/0614/c16789a270678/page.htm}{Prof. Deyou TANG}\hfill May-Dec. 2022\\
-	\vspace{-0.2in}
-	\begin{innerlist}
-		\item Optimize and parallel Bounded Bunch-Kaufman Algorithm(*sysv\_rk subroutine of LAPACK) for solving symmetric matrix on ARM server processor with NEON instruction set and openMP.
-		\item Implement a parallel column reordering method in row swap of solving symmetric matrix to enhance memory access locality for column major matrix for better cache hit rate and parallelism, achieving a performance improvement from 320Gflops to 580Gflops.
-		\item Implement the same optimization on Skylake Intel processor and achieve 2-5x multi-core speedup than MKL library for *sytrs\_3 subroutine of LAPACK.
-		\item Awarded as the Excellent Degree Dissertation of South China University of Technology.
-	\end{innerlist}
+Mentor: \href{http://www2.scut.edu.cn/sse/2018/0614/c16789a270678/page.htm}{Prof. Deyou TANG}\hfill May-Dec. 2022\\
+\vspace{-0.2in}
+\begin{innerlist}
+        \item Optimize and parallel Bounded Bunch-Kaufman Algorithm(*sysv\_rk subroutine of LAPACK) for solving symmetric matrix on ARM server processor with NEON instruction set and openMP.
+        \item Implement a parallel column reordering method in row swap of solving symmetric matrix to enhance memory access locality for column major matrix for better cache hit rate and parallelism, achieving a performance improvement from 320Gflops to 580Gflops.
+        \item Implement the same optimization on Skylake Intel processor and achieve 2-5x multi-core speedup than MKL library for *sytrs\_3 subroutine of LAPACK.
+        \item Awarded as the Excellent Degree Dissertation of South China University of Technology.
+\end{innerlist}
 
 %\item {\it\textbf{Research Assistant}} in \textbf{\href{https://hkust-gz.edu.cn/zh/?variant=zh-cn}{Hong Kong University of Science and Technology, Guangzhou}}\\
 %Mentor: \href{https://zeyiwen.github.io/}{Prof. Zeyi WEN}\hfill Apr-Sept.  2023\\
@@ -420,7 +422,7 @@ Mentor: Dr. Tao HUANG\hfill Jan.-May  2024\\
 \pagebreak
 	
 % \makeheading{Curriculum Vitae\\ [0.3cm] TIEP HUU VU\quad~~~~~~\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad{\small Last update: December 17, 2015}}
-\makeheading{陈 涵 \hfill {\small 最近更新: 2024年10月22日}}
+\makeheading{陈 涵 \hfill {\small 最近更新: 2024年12月02日}}
 
 
 \vspace{-0.2in}
@@ -531,12 +533,14 @@ Tel: +65-89420214\\
                 \item 该项目已提交至ICLR 2025。
         \end{innerlist}
 
-\item {\it\textbf{实习生: 密码算法工程师}}: 华为2012实验室新加坡研究所数字信任实验室 \hfill 2024/01--2024/05\\
-        导师：黄涛博士
+\item {\it\textbf{实习生: 密码算法工程师}}: 华为2012实验室新加坡研究所数字信任实验室 \hfill 2024/01--2024/12\\
+        导师：\href{mailto:huangtao80@huawei.com}{黄涛博士}
         \begin{innerlist}
-                \item 通过ARM和x86架构的密码学SIMD实现差异, 设计了一个高性能的SIMD加密结构。
-                \item 设计了一种新的AEAD流密码, 在主流的移动处理器上, 比AES-GCM加密算法实现了4倍的加速。
-                \item 该项目计划投稿至FSE(Fast Software Encryption) 2025。
+                \item 设计了一种新的\textit{'XAXX'}算法结构, 可以高效利用ARM和x86(带AES-NI)架构的流水线, 实现了高IPC。
+                \item 基于\textit{'XAXX'}结构构建了一种新的AEAD(带关联数据的认证加密)密码算法, \textit{'HiAE'}, 在ARM处理器上比AES-256-GCM快16倍, 在x86-64处理器上比AES-256-GCM快13倍。
+                \item 通过内联汇编优化, 使其成为在最新的ARM和x86处理器上最快的AEAD算法, 并创造了AEAD 模式下328Gbps的新性能记录。
+                \item 该项目已提交至FSE (Fast Software Encryption) 2025。
+                \item 实现已开源: \href{https://github.com/Concyclics/HiAE}{github.com/Concyclics/HiAE}。
         \end{innerlist}
  	
  \item {\it \textbf{对称矩阵函数求解BBK算法的并行优化}} \hfill 2022/04-2022/12\\

@@ -1,8 +1,8 @@
-PWD c:/Users/Concyclics/Documents/resume/latex
+PWD c:/Users/ChenH/Documents/resume/latex
 INPUT c:/texlive/2023/texmf.cnf
 INPUT c:/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/Concyclics/Documents/resume/latex/resume.tex
+INPUT c:/Users/ChenH/Documents/resume/latex/resume.tex
 OUTPUT resume.log
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -846,13 +846,6 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong7c.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong65.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong5f.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong4f.tfm
-INPUT c:/texlive/2023/texmf-dist/tex/latex/zhmetrics/c70zhfs.fd
-INPUT c:/texlive/2023/texmf-dist/tex/latex/zhmetrics/c70zhfs.fd
-INPUT c:/texlive/2023/texmf-dist/tex/latex/zhmetrics/c70zhfs.fd
-INPUT c:/texlive/2023/texmf-dist/tex/latex/zhmetrics/c70zhfs.fd
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unifs/unifs57.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong52.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong57.tfm
 INPUT ./face.jpg
 INPUT ./face.jpg
 INPUT face.jpg
@@ -866,6 +859,8 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei56.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei7a.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei59.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei5b.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong52.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong57.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong98.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8b.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong7b.tfm
@@ -1072,6 +1067,8 @@ INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
@@ -1083,9 +1080,6 @@ INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
-INPUT c:/Windows/Fonts/simsun.ttc
-INPUT c:/Windows/Fonts/simsun.ttc
-INPUT c:/Windows/Fonts/simfang.ttf
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simhei.ttf

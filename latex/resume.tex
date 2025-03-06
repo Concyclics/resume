@@ -239,7 +239,7 @@
 %% =========  ==============================
 	
 % \makeheading{Curriculum Vitae\\ [0.3cm] TIEP HUU VU\quad~~~~~~\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad{\small Last update: December 17, 2015}}
-\makeheading{CHEN Han \hfill {\small Last update: Dec. 16, 2024}}
+\makeheading{CHEN Han \hfill {\small Last update: March 6, 2025}}
 
 \vspace{-0.2in}
 \section{contact\\information}
@@ -277,9 +277,9 @@ Wechat: concyclics\\
 \section{education}
 \vspace{-0.4in}
 
-\href{https://www.nus.edu.sg/}{\textbf{National University of Singapore}}, Singapore. \hfill 2023--2025(Expected)
+\href{https://www.nus.edu.sg/}{\textbf{National University of Singapore}}, Singapore. \hfill 2023--2025
         \begin{innerlist}
-                \item Master of Computing, Computer Science Specialization. \hfill GPA: 4.3/5.0
+                \item Master of Computing, Computer Science Specialization. \hfill GPA: 4.4/5.0
         \end{innerlist}
 
 \href{https://www.scut.edu.cn/en/}{\textbf{South China University of Technology (SCUT)}}, Guangzhou, China. \hfill 2019--2023
@@ -332,10 +332,18 @@ Wechat: concyclics\\
 	%\item \textbf{\textit{Kaggle Notebook Expert}} \href{https://www.kaggle.com/concyclics}{Rank 964/221587} \hfill 2022
 \end{outerlist}
 
-
+\noindent\rule{\textwidth}{1pt}
+\section{PrePrints and Publications}
+\vspace{-0.5in}
+\begin{outerlist}
+\item \textit{\textbf{CHEN Han}, Tao Huang, Phuong Pham, Shuang Wu.} \href{https://eprint.iacr.org/2025/377}{\textbf{HiAE: A High-Throughput Authenticated Encryption Algorithm for Cross-Platform Efficiency}} \hfill 2025
+\item \textit{\textbf{CHEN Han}, Zicong Jiang, Zining Zhang, Bingsheng He.} \href{https://www.researchgate.net/publication/388733634_LogQuant_Log-Distributed_2-Bit_Quantization_of_KV_Cache_with_Superior_Accuracy_Preservation}{\textbf{LogQuant: Log-Distributed 2-Bit Quantization of KV Cache with Superior Accuracy Preservation}}. Accepted at ICLR 2025 Workshop on Sparsity in LLMs \hfill 2025
+\item \textit{Wenqi Pei, Hailing Xu, Henry Hengyuan Zhao, \textbf{CHEN Han}, Zining Zhang, Shizheng Hou, Luo Pingyi, Bingsheng He.} \href{https://openreview.net/pdf?id=xGkxWP2wE4}{\textbf{Optimizing Small Language Models for NL2SQL}}. Accepted at ICLR 2025 Third Workshop on Deep Learning for Code \hfill 2025
+\end{outerlist}
+    
 %% ================== block:  ==========================
 \noindent\rule{\textwidth}{1pt}
-\section{Research Experience}
+\section{Project Experience}
 \vspace{-0.5in}
 \begin{outerlist}
 
@@ -345,7 +353,7 @@ Mentor: \href{https://www.comp.nus.edu.sg/~hebs/}{Prof. Bingsheng HE}\hfill May-
 \begin{innerlist}
         \item Design a new 2-bit KV Cache quantization for LLMs base on attention patterns. achieve over 200\% accuracy improvement at same compression rate.
         \item Implement a adaptive API for popular inference frameworks like Python’s \texttt{transformers}, boosts batch size by 60\% without increasing memory consumption.
-        \item Under review at ICLR 2025.
+        \item Accepted at ICLR 2025 Workshop on Sparsity in LLMs. \space \href{https://www.researchgate.net/publication/388733634_LogQuant_Log-Distributed_2-Bit_Quantization_of_KV_Cache_with_Superior_Accuracy_Preservation}{[Paper]} \space \href{https://github.com/Concyclics/LogQuantKV}{[Code]}
 \end{innerlist}
 
 \item {\it\textbf{Internship: Cryptography Engineer}} in \textbf{SG Digital Trust Lab, Singapore Research Center, 2012 Laboratory}\\
@@ -353,10 +361,9 @@ Mentor: \href{mailto:huangtao80@huawei.com}{Dr. Tao HUANG}\hfill Jan.-Dec.  2024
 \vspace{-0.2in}
 \begin{innerlist}
         \item Design a \textit{'XAXX'} structure to efficiently utilize the distinct pipelines of both ARM and x86 (with AES-NI) architectures, achieving high IPC.
-        \item Build a new AEAD (Authenticated Encryption with Associated Data) cipher named \textit{'HiAE'} based on the \textit{'XAXX'} structure, which is 16$\times$ faster on ARM and 13$\times$ faster on x86-64 processors than AES-256-GCM.
-        \item Optimized it by inline assembler, make it as the fastest AEAD solution on both latest ARM and x86 processors, creating new performance record of 328Gbps on AEAD mode.
-        \item Under review at FSE (Fast Software Encryption) 2025
-        %\item Implementation open-source at \href{https://github.com/Concyclics/HiAE}{github.com/Concyclics/HiAE}.
+        \item Build a new AEAD (Authenticated Encryption with Associated Data) cipher named \textit{'HiAE'} based on the \textit{'XAXX'} structure, which is 5$\times$ faster than AES-256-GCM across different platforms and outperforms all existing AEAD ciphers on latest ARM and x86 processors.
+        \item Create a new record of 340Gbps throughput for single-threaded and single-stream AEAD encryption. Applied to the various products.
+        \item Open-source on Cryptology ePrint Archive \space \href{https://eprint.iacr.org/2025/377}{[Paper]} \space \href{https://github.com/Concyclics/HiAE}{[Code]}
 \end{innerlist}
 
 \item {\it\textbf{Symmetric Matrix Solving Algorithm Parallel Optimization for ARM Architecture}}\\
@@ -422,7 +429,7 @@ Mentor: \href{http://www2.scut.edu.cn/sse/2018/0614/c16789a270678/page.htm}{Prof
 \pagebreak
 	
 % \makeheading{Curriculum Vitae\\ [0.3cm] TIEP HUU VU\quad~~~~~~\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad{\small Last update: December 17, 2015}}
-\makeheading{陈 涵 \hfill {\small 最近更新: 2024年12月16日}}
+\makeheading{陈 涵 \hfill {\small 最近更新: \today}}
 
 
 \vspace{-0.2in}
@@ -462,18 +469,15 @@ Tel: +65-89420214\\
 \section{教育经历}
 \vspace{-0.4in}
 \\
-\href{https://www.nus.edu.sg/}{\textbf{新加坡国立大学}}, 新加坡 \hfill 2023--2025(预计)
+\href{https://www.nus.edu.sg/}{\textbf{新加坡国立大学}}, 新加坡 \hfill 2023--2025
 \begin{innerlist}
-        \item 计算机科学硕士, 计算机科学方向. \hfill GPA: 4.3/5.0
+        \item 计算机科学硕士, 计算机科学方向. \hfill GPA: 4.4/5.0
 \end{innerlist}
 \href{https://www.scut.edu.cn/en/}{\textbf{华南理工大学}}, 广东省广州市 \hfill 2019--2023
 \begin{innerlist}
         \item 工学学士, 软件工程专业. \hfill GPA: 3.6/4.0
 \end{innerlist}
 %\href{http://www.fzsz.net/}{\textbf{福建省福州第三中学}}, 福建省福州市. \hfill 2016--2019
-
-
-
 
 \noindent\rule{\textwidth}{1pt}
 \section{获奖荣誉}
@@ -515,10 +519,15 @@ Tel: +65-89420214\\
 %\item \textbf{\textit{Kaggle 代码专家(Notebook Expert)}} \href{https://www.kaggle.com/concyclics}{排名 964/221587} \hfill 2022
 \end{outerlist}
 \noindent\rule{\textwidth}{1pt}
-
 %% ================== block:  ==========================
-\vspace{0.1in}
-
+\section{预印本和发表论文}
+\vspace{-0.5in}
+\begin{outerlist}
+        \item \textit{\textbf{CHEN Han}, Tao Huang, Phuong Pham, Shuang Wu.} \href{https://eprint.iacr.org/2025/377}{\textbf{HiAE: A High-Throughput Authenticated Encryption Algorithm for Cross-Platform Efficiency}} \hfill 2025
+        \item \textit{\textbf{CHEN Han}, Zicong Jiang, Zining Zhang, Bingsheng He.} \href{https://www.researchgate.net/publication/388733634_LogQuant_Log-Distributed_2-Bit_Quantization_of_KV_Cache_with_Superior_Accuracy_Preservation}{\textbf{LogQuant: Log-Distributed 2-Bit Quantization of KV Cache with Superior Accuracy Preservation}}. Accepted at ICLR 2025 Workshop on Sparsity in LLMs \hfill 2025
+        \item \textit{Wenqi Pei, Hailing Xu, Henry Hengyuan Zhao, \textbf{CHEN Han}, Zining Zhang, Shizheng Hou, Luo Pingyi, Bingsheng He.} \href{https://openreview.net/pdf?id=xGkxWP2wE4}{\textbf{Optimizing Small Language Models for NL2SQL}}. Accepted at ICLR 2025 Third Workshop on Deep Learning for Code \hfill 2025
+\end{outerlist}
+\noindent\rule{\textwidth}{1pt}
 %% ================== block:  ==========================
 \section{项目经历} % (fold)
 \label{sec:technical_ski}
@@ -530,17 +539,16 @@ Tel: +65-89420214\\
         \begin{innerlist}
                 \item 设计了一种基于注意力模式的2位KV Cache量化方法, 在相同压缩率下, 提高了200\%的准确率。
                 \item 实现了一个适应性API, 用于流行的推理框架, 如Python的transformers, 在不增加内存消耗的情况下, 将批处理大小提高了60\%。
-                \item 该项目已提交至ICLR 2025。
+                \item 该项目已被ICLR 2025 Sparsity in LLMs Workshop接受。 \href{https://www.researchgate.net/publication/388733634_LogQuant_Log-Distributed_2-Bit_Quantization_of_KV_Cache_with_Superior_Accuracy_Preservation}{[Paper]} \href{www.github.com/Concyclics/LogQuantKV}{[Code]}
         \end{innerlist}
 
-\item {\it\textbf{实习生: 密码算法工程师}}: 华为2012实验室新加坡研究所数字信任实验室 \hfill 2024/01--2024/12\\
+\item {\it\textbf{实习生: 密码算法工程师}}: 华为2012实验室新加坡研究所谢尔德实验室 \hfill 2024/01--2024/12\\
         导师：\href{mailto:huangtao80@huawei.com}{黄涛博士}
         \begin{innerlist}
                 \item 设计了一种新的\textit{'XAXX'}算法结构, 可以高效利用ARM和x86(带AES-NI)架构的流水线, 实现了高IPC。
-                \item 基于\textit{'XAXX'}结构构建了一种新的AEAD(带关联数据的认证加密)密码算法, \textit{'HiAE'}, 在ARM处理器上比AES-256-GCM快16倍, 在x86-64处理器上比AES-256-GCM快13倍。
-                \item 通过内联汇编优化, 使其成为在最新的ARM和x86处理器上最快的AEAD算法, 并创造了AEAD 模式下328Gbps的新性能记录。
-                \item 该项目已提交至FSE (Fast Software Encryption) 2025。
-                %\item 实现已开源: \href{https://github.com/Concyclics/HiAE}{github.com/Concyclics/HiAE}。
+                \item 基于\textit{'XAXX'}结构构建了一种新的AEAD(带关联数据的认证加密)密码算法, \textit{'HiAE'}, 在多种平台上相较AES-256-GCM提升5倍以上性能, 在最新的ARM和x86处理器上优于所有现有的 AEAD密码算法。
+                \item 创造了单线程单流AEAD加密的340Gbps新纪录, 并应用于多种华为产品。
+                \item 该项目已在Cryptology ePrint Archive上开源。 \href{https://eprint.iacr.org/2025/377}{[Paper]} \href{www.github.com/Concyclics/HiAE}{[Code]}
         \end{innerlist}
  	
  \item {\it \textbf{对称矩阵函数求解BBK算法的并行优化}} \hfill 2022/04-2022/12\\

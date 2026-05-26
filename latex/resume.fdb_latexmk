@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1779104643.59682 "resume.xdv" "resume.pdf" "resume" 1779104643.93707 0
-  "resume.xdv" 1779104643.48999 114296 823d606675d9e7efe7ebb97f32537f16 "xelatex"
+["xdvipdfmx"] 1779775482.3423 "resume.xdv" "resume.pdf" "resume" 1779775482.63417 0
+  "resume.xdv" 1779775482.26512 131856 0e669331c9ead5fcf65d6930a0f906cb "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1779104642.50037 "resume.tex" "resume.xdv" "resume" 1779104643.93354 0
+["xelatex"] 1779775481.31019 "resume.tex" "resume.xdv" "resume" 1779775482.63063 0
   "/etc/texmf/web2c/texmf.cnf" 1756125309.09601 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -96,9 +96,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1756125379 10841501 581ec64e9f4039219e06f4faa12e9e3a ""
   "face.jpg" 1779104277.02289 131493 8a4481fe6c29a25646ed8113f042db92 ""
-  "resume.aux" 1779104643.48899 1722 480f7c2029d92dbbcca8d1aaa2ca1ad6 "xelatex"
-  "resume.out" 1779104643.48999 1510 1d3ea2d620504a0fee1f4140b613929e "xelatex"
-  "resume.tex" 1779104639.8067 34016 05549e2f72117728ed7676e32b7557f3 ""
+  "resume.aux" 1779775482.26412 1722 0497b0415597a604d8c60e4d3023ba07 "xelatex"
+  "resume.out" 1779775482.26512 1510 1d3ea2d620504a0fee1f4140b613929e "xelatex"
+  "resume.tex" 1779775474.57355 36547 9e91759b76ce1f4e3e97bfa24cdbbfb8 ""
   (generated)
   "resume.aux"
   "resume.log"

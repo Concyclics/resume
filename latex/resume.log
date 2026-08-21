@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.8.25)  26 MAY 2026 06:16
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.8.25)  21 AUG 2026 07:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -682,10 +682,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ] [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 433.
+(hyperref)                removing `\\' on input line 436.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 
  []
 
@@ -693,32 +693,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 435--436
 
 LaTeX Font Warning: Font shape `TU/FandolSong-Regular(0)/m/sc' undefined
 (Font)              using `TU/FandolSong-Regular(0)/m/n' instead on input line 
-462.
+465.
 
 
-Overfull \hbox (13.04672pt too wide) in paragraph at lines 463--475
+Overfull \hbox (13.04672pt too wide) in paragraph at lines 466--478
 [][] 
  []
 
 File: face.jpg Graphic file (type bmp)
 <face.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--479
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 
  []
 
 
-Overfull \hbox (112.47444pt too wide) in paragraph at lines 462--480
+Overfull \hbox (112.47444pt too wide) in paragraph at lines 465--483
 []$[]$ $[]$ 
  []
 
 
 LaTeX Font Warning: Font shape `TU/FandolSong-Regular(0)/b/it' undefined
 (Font)              using `TU/FandolSong-Regular(0)/b/n' instead on input line 
-518.
+521.
 
 [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 639--640
+Underfull \hbox (badness 10000) in paragraph at lines 645--646
 
  []
 
@@ -746,6 +746,6 @@ Here is how much of TeX's memory you used:
  37376 multiletter control sequences out of 15000+600000
  561390 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,13n,97p,552b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,13n,97p,552b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume.pdf (6 pages).
+Output written on resume.xdv (6 pages, 146704 bytes).

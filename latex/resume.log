@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.8.25)  21 AUG 2026 07:17
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.8.25)  21 AUG 2026 07:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -498,11 +498,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `colorlinks' set `true' on input line 130.
 Package hyperref Info: Option `breaklinks' set `true' on input line 130.
 
-(./resume.aux
-
-LaTeX Warning: Label `sec:technical_ski' multiply defined.
-
-)
+(./resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 218.
@@ -624,17 +620,13 @@ Package hyperref Info: Link coloring ON on input line 218.
 \openout3 = `resume.out'.
 
 \rcollength=\skip80
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 246.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 247.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 247.
 LaTeX Font Info:    Trying to load font information for U+mvs on input line 252
 .
+
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
 
 Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
@@ -652,40 +644,29 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 (fontspec)             <->"[FandolFang-Regular.otf]/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-
-Overfull \hbox (13.04672pt too wide) in paragraph at lines 247--259
-[][] 
- []
-
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 255.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 255.
 File: face.jpg Graphic file (type bmp)
 <face.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
-
- []
-
-
-Overfull \hbox (112.47444pt too wide) in paragraph at lines 246--265
-[]$[]$ $[]$ 
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 306.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 301.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 301.
+(hyperref)                removing `\\' on input line 306.
 
 [1
 
 ] [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 436.
+(hyperref)                removing `\\' on input line 442.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 
  []
 
@@ -693,32 +674,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 438--439
 
 LaTeX Font Warning: Font shape `TU/FandolSong-Regular(0)/m/sc' undefined
 (Font)              using `TU/FandolSong-Regular(0)/m/n' instead on input line 
-465.
-
-
-Overfull \hbox (13.04672pt too wide) in paragraph at lines 466--478
-[][] 
- []
+471.
 
 File: face.jpg Graphic file (type bmp)
 <face.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
-
- []
-
-
-Overfull \hbox (112.47444pt too wide) in paragraph at lines 465--483
-[]$[]$ $[]$ 
- []
-
-
 LaTeX Font Warning: Font shape `TU/FandolSong-Regular(0)/b/it' undefined
 (Font)              using `TU/FandolSong-Regular(0)/b/n' instead on input line 
-521.
+532.
 
 [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 645--646
+Underfull \hbox (badness 10000) in paragraph at lines 656--657
 
  []
 
@@ -733,19 +699,16 @@ L3 programming layer <2022/07/14>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 1D3EA2D620504A0FEE1F4140B613929E;1510.
+(rerunfilecheck)             Checksum: 2B34B87ACDBEB6EFFE05BE1F03D41366;1518.
  ) 
 Here is how much of TeX's memory you used:
- 15556 strings out of 474878
- 334802 string characters out of 5762516
- 1945627 words of memory out of 5000000
- 37376 multiletter control sequences out of 15000+600000
- 561390 words of font info for 68 fonts, out of 8000000 for 9000
+ 15593 strings out of 474878
+ 336070 string characters out of 5762516
+ 1944627 words of memory out of 5000000
+ 37401 multiletter control sequences out of 15000+600000
+ 563237 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,13n,97p,552b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,13n,97p,552b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume.xdv (6 pages, 146704 bytes).
+Output written on resume.xdv (6 pages, 153096 bytes).

@@ -1,15 +1,21 @@
 # Fdb version 4
-["xdvipdfmx"] 1787296627.04879 "resume.xdv" "resume.pdf" "resume" 1787296627.33855 0
-  "resume.xdv" 1787296626.9675 146704 026ec87e5aa1e81746bd1c1655f7da43 "xelatex"
+["xdvipdfmx"] 1787297029.9207 "resume.xdv" "resume.pdf" "resume" 1787297030.21573 0
+  "resume.xdv" 1787297029.84248 153096 08125cfbe42d0997cf3854872f943fe7 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1787296625.97098 "resume.tex" "resume.xdv" "resume" 1787296627.33499 0
+["xelatex"] 1787297028.87983 "resume.tex" "resume.xdv" "resume" 1787297030.21201 0
   "/etc/texmf/web2c/texmf.cnf" 1756125309.09601 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm" 1136768653 1524 d89e2d087a9828407a196f428428ef4a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm" 1136768653 1116 25a7bf822c58caf309a702ef79f4afbb ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/marvosym/umvs.tfm" 1313968873 1772 135d23849cb646acc6bb1ae8d73e3f78 ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -96,9 +102,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1756125379 10841501 581ec64e9f4039219e06f4faa12e9e3a ""
   "face.jpg" 1779104277.02289 131493 8a4481fe6c29a25646ed8113f042db92 ""
-  "resume.aux" 1787296626.9675 1722 188a2e5e254ac7e7a4f5197050f3cc9b "xelatex"
-  "resume.out" 1787296626.9675 1510 1d3ea2d620504a0fee1f4140b613929e "xelatex"
-  "resume.tex" 1787296616.9985 38461 d23f9ae6dff5214d0d85182b8d2466b1 ""
+  "resume.aux" 1787297029.84148 1726 1e0b038c1a2bdfdf5e300857631c5460 "xelatex"
+  "resume.out" 1787297029.84248 1518 2b34b87acdbeb6effe05be1f03d41366 "xelatex"
+  "resume.tex" 1787297022.51648 38738 0be49a0f76a0d3f9e3b6439d66714ce1 ""
   (generated)
   "resume.aux"
   "resume.log"
